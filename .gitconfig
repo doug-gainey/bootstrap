@@ -1,0 +1,20 @@
+[user]
+name = Doug Gainey
+email = douggainey@gmail.com
+[gui]
+	gcwarning = false
+[mergetool "winmerge"]
+	cmd = \"C:\\Program Files\\WinMerge\\WinMergeU.exe\" \"$MERGED\"
+[diff]
+	tool = winmerge
+[alias]
+	co = checkout
+	st = status
+	su = submodule update --init --recursive
+	pu = !git pull --rebase && git submodule update --init --recursive
+	cm = commit -m
+	cma = commit -a -m
+	db = branch -D
+	drb = push origin --delete
+[merge]
+	tool = winmerge
