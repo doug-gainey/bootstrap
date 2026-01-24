@@ -18,17 +18,17 @@ Prerequisite: Windows Terminal
     Install-Module z
     ```
 
-1. [Install Nerd Fonts](https://www.nerdfonts.com/):
+1. <a href="https://www.nerdfonts.com/" target="_blank">Install Nerd Fonts</a>:
 
     * CaskaydiaCove Nerd Font (Cascadia Code + icons)
 
     * JetBrainsMono Nerd Font
 
-1. Copy [Oh My Posh Theme](machine-bootstrap/oh-my-posh/web.omp.json) to /Users/{User}/.config/oh-my-posh
+1. Copy <a href="machine-bootstrap/oh-my-posh/web.omp.json" target="_blank">Oh My Posh Theme</a> to /Users/{User}/.config/oh-my-posh
 
-1. Copy [Powershell Profile](machine-bootstrap/powershell/Microsoft.PowerShell_profile.ps1) to /Users/{User}/Documents/PowerShell
+1. Copy <a href="machine-bootstrap/powershell/Microsoft.PowerShell_profile.ps1" target="_blank">Powershell Profile</a> to /Users/{User}/Documents/PowerShell
 
-1. Copy [Git Config](machine-bootstrap/git/.gitconfig) to /Users/{User}
+1. Copy <a href="machine-bootstrap/git/.gitconfig" target="_blank">Git Config</a> to /Users/{User}
 
 1. Set defaults in Windows Terminal:
 
