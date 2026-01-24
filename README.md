@@ -1,10 +1,58 @@
-# Machine Bootstrap Files
+# Machine Bootstrap
+Prerequisite: Windows Terminal
 
-* [Powershell Profile](machine-bootstrap/powershell/Microsoft.PowerShell_profile.ps1) => /Users/{User}/Documents/PowerShell
+1. Install dev tools:
 
-* [Oh My Posh Theme](machine-bootstrap/oh-my-posh/web.omp.json) => /Users/{User}/.config/oh-my-posh
+    ```
+    winget install Microsoft.PowerShell
+    winget install JanDeDobbeleer.OhMyPosh
+    winget install Git.Git
+    winget install Microsoft.VisualStudioCode
+    winget install OpenJS.NodeJS.LTS
+    ```
 
-* [Git Config](machine-bootstrap/git/.gitconfig) => /Users/{User}
+1. Install PowerShell modules:
+    ```
+    Install-Module PSReadLine -Force
+    Install-Module Terminal-Icons
+    Install-Module z
+    ```
 
-# Project Bootstrap Files
+1. [Install Nerd Fonts](https://www.nerdfonts.com/){target="_blank"}:
+
+    * CaskaydiaCove Nerd Font (Cascadia Code + icons)
+
+    * JetBrainsMono Nerd Font
+
+1. Copy [Oh My Posh Theme](machine-bootstrap/oh-my-posh/web.omp.json){target="_blank"} to /Users/{User}/.config/oh-my-posh
+
+1. Copy [Powershell Profile](machine-bootstrap/powershell/Microsoft.PowerShell_profile.ps1){target="_blank"} to /Users/{User}/Documents/PowerShell
+
+1. Copy [Git Config](machine-bootstrap/git/.gitconfig){target="_blank"} to /Users/{User}
+
+1. Set defaults in Windows Terminal:
+
+    Settings → Startup → Default profile → PowerShell
+
+    Settings → Defaults → Appearance → Font face → CaskaydiaCove Nerd Font
+
+    Settings → Defaults → Appearance → Font size → 12
+
+
+1. Set defaults in VS Code:
+
+    Ctrl + Shift + P → Terminal: Select Default Profile → Powershell
+
+    Ctrl + , → Terminal > Integrated: Font Family → CaskaydiaCove NF
+
+    Ctrl + , → Terminal > Integrated: Font Size → 12
+1. Optional: Install global npm tools
+
+    ```
+    npm install -g pnpm
+    npm install -g serve
+    ```
+
+
+# Project Bootstrap
 Standard configs, templates, and helpers to quickly bootstrap personal projects.
