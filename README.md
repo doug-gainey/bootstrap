@@ -8,7 +8,8 @@ Prerequisite: Windows Terminal
     winget install JanDeDobbeleer.OhMyPosh
     winget install Git.Git
     winget install Microsoft.VisualStudioCode
-    winget install OpenJS.NodeJS.LTS
+    winget install CoreyButler.NVMforWindows
+
     ```
 
 1. Install PowerShell modules:
@@ -46,6 +47,11 @@ Prerequisite: Windows Terminal
     Ctrl + , → Terminal > Integrated: Font Family → CaskaydiaCove NF (or JetBrainsMono NF)
 
     Ctrl + , → Terminal > Integrated: Font Size → 12
+1. Install node versions
+    ```
+    nvm install lts
+    nvm use lts
+    ```
 1. Optional: Install global npm tools
 
     ```
