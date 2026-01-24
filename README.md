@@ -50,6 +50,8 @@ Prerequisite: Windows Terminal
 1. Install node versions
     ```
     nvm install lts
+    nvm install 22
+    nvm install 20
     nvm use lts
     ```
 1. Optional: Install global npm tools
