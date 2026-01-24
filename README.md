@@ -18,23 +18,23 @@ Prerequisite: Windows Terminal
     Install-Module z
     ```
 
-1. [Install Nerd Fonts](https://www.nerdfonts.com/){target="_blank"}:
+1. [Install Nerd Fonts](https://www.nerdfonts.com/):
 
     * CaskaydiaCove Nerd Font (Cascadia Code + icons)
 
     * JetBrainsMono Nerd Font
 
-1. Copy [Oh My Posh Theme](machine-bootstrap/oh-my-posh/web.omp.json){target="_blank"} to /Users/{User}/.config/oh-my-posh
+1. Copy [Oh My Posh Theme](machine-bootstrap/oh-my-posh/web.omp.json) to /Users/{User}/.config/oh-my-posh
 
-1. Copy [Powershell Profile](machine-bootstrap/powershell/Microsoft.PowerShell_profile.ps1){target="_blank"} to /Users/{User}/Documents/PowerShell
+1. Copy [Powershell Profile](machine-bootstrap/powershell/Microsoft.PowerShell_profile.ps1) to /Users/{User}/Documents/PowerShell
 
-1. Copy [Git Config](machine-bootstrap/git/.gitconfig){target="_blank"} to /Users/{User}
+1. Copy [Git Config](machine-bootstrap/git/.gitconfig) to /Users/{User}
 
 1. Set defaults in Windows Terminal:
 
     Settings → Startup → Default profile → PowerShell
 
-    Settings → Defaults → Appearance → Font face → CaskaydiaCove Nerd Font
+    Settings → Defaults → Appearance → Font face → CaskaydiaCove Nerd Font (or JetBrainsMono Nerd Font)
 
     Settings → Defaults → Appearance → Font size → 12
 
@@ -43,7 +43,7 @@ Prerequisite: Windows Terminal
 
     Ctrl + Shift + P → Terminal: Select Default Profile → Powershell
 
-    Ctrl + , → Terminal > Integrated: Font Family → CaskaydiaCove NF
+    Ctrl + , → Terminal > Integrated: Font Family → CaskaydiaCove NF (or JetBrainsMono NF)
 
     Ctrl + , → Terminal > Integrated: Font Size → 12
 1. Optional: Install global npm tools
