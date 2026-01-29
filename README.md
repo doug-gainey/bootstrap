@@ -17,6 +17,7 @@ Prerequisite: Windows Terminal
     Install-Module PSReadLine -Force
     Install-Module Terminal-Icons
     Install-Module z
+    Install-Module posh-git
     ```
 
 1. [Install Nerd Fonts](https://www.nerdfonts.com/):
