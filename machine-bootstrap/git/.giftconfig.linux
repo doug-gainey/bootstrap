@@ -1,0 +1,25 @@
+# This is Git's per-user configuration file.
+[user]
+        name = Doug Gainey
+        email = doug.gainey@sra.io
+[gui]
+        gcwarning = false
+[diff]
+        tool = meld
+[difftool]
+        prompt = false
+[merge]
+        tool = meld
+[mergetool]
+        prompt = false
+[mergetool "meld"]
+        trustExitCode = true
+[alias]
+        co = checkout
+        st = status
+        su = submodule update --init --recursive
+        pu = !git pull --rebase && git submodule update --init --recursive
+        cm = commit -m
+        cma = commit -a -m
+        db = branch -D
+        drb = push origin --delete
