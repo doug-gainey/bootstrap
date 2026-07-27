@@ -1,13 +1,20 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Doug Gainey
-	email = douggainey@gmail.com
+	email = doug.gainey@sra.io
 [gui]
 	gcwarning = false
+[diff]
+        tool = winmerge
+[difftool]
+        prompt = false
+[merge]
+        tool = winmerge
+[mergetool]
+        prompt = false
 [mergetool "winmerge"]
 	cmd = \"C:\\Program Files\\WinMerge\\WinMergeU.exe\" \"$MERGED\"
-[diff]
-	tool = winmerge
+        trustExitCode = true
 [alias]
 	co = checkout
 	st = status
@@ -17,5 +24,3 @@
 	cma = commit -a -m
 	db = branch -D
 	drb = push origin --delete
-[merge]
-	tool = winmerge
