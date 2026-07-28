@@ -1,7 +1,7 @@
 # This is Git's per-user configuration file.
 [user]
 	name = Doug Gainey
-	email = doug.gainey@sra.io
+	email = douggainey@gmail.com
 [gui]
 	gcwarning = false
 [diff]
