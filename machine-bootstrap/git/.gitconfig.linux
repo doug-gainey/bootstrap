@@ -2,18 +2,25 @@
 [user]
         name = Doug Gainey
         email = douggainey@gmail.com
+
 [gui]
         gcwarning = false
+
 [diff]
         tool = meld
 [difftool]
         prompt = false
+[difftool "meld"]
+        cmd = meld "$LOCAL" "$REMOTE"
+
 [merge]
         tool = meld
 [mergetool]
         prompt = false
 [mergetool "meld"]
+        cmd = meld "$LOCAL" "$BASE" "$REMOTE" --output "$MERGED"
         trustExitCode = true
+
 [alias]
         co = checkout
         st = status
