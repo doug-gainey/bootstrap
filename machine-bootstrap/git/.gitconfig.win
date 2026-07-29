@@ -2,19 +2,25 @@
 [user]
 	name = Doug Gainey
 	email = douggainey@gmail.com
+
 [gui]
 	gcwarning = false
+
 [diff]
-        tool = winmerge
+	tool = winmerge
 [difftool]
-        prompt = false
+	prompt = false
+[difftool "winmerge"]
+	cmd = "C:/Program Files/WinMerge/WinMergeU.exe" -e "$LOCAL" "$REMOTE"
+
 [merge]
-        tool = winmerge
+	tool = winmerge
 [mergetool]
-        prompt = false
+	prompt = false
 [mergetool "winmerge"]
-	cmd = \"C:\\Program Files\\WinMerge\\WinMergeU.exe\" \"$MERGED\"
-        trustExitCode = true
+	cmd = "C:/Program Files/WinMerge/WinMergeU.exe" -e -u -dl "Local" -dr "Remote" "$LOCAL" "$REMOTE" "$MERGED"
+	trustExitCode = true
+
 [alias]
 	co = checkout
 	st = status
